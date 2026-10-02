@@ -1,0 +1,135 @@
+# ==============================
+# Smart Parking System .gitignore
+# ==============================
+
+# ------------------------------
+# Environment / Secrets
+# ------------------------------
+.env
+.env.*
+!.env.example
+
+# Local configuration
+config.local.php
+database.local.php
+credentials.php
+secrets.php
+
+# ------------------------------
+# PHP / Composer
+# ------------------------------
+/vendor/
+composer.lock
+
+# ------------------------------
+# XAMPP / Local Server
+# ------------------------------
+xampp/
+htdocs/
+
+# Ignore local server configuration
+*.ini
+*.log
+
+# ------------------------------
+# Database
+# ------------------------------
+*.sql.bak
+*.dump
+*.sqlite
+*.sqlite3
+
+# Do NOT ignore your intentionally
+# exported project database:
+# database/project.sql
+
+# ------------------------------
+# IDE / Editors
+# ------------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# ------------------------------
+# Operating System
+# ------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ------------------------------
+# Temporary Files
+# ------------------------------
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.old
+
+# ------------------------------
+# PHP Runtime / Cache
+# ------------------------------
+.phpunit.result.cache
+.php-cs-fixer.cache
+
+# ------------------------------
+# Node.js (if frontend tooling
+# is added later)
+# ------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ------------------------------
+# Python (if used for
+# supporting scripts later)
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# ------------------------------
+# Arduino
+# ------------------------------
+# Build artifacts
+*.elf
+*.hex
+*.bin
+*.eep
+
+# Arduino temporary files
+arduino_build_*/
+arduino_cache_*/
+
+# ------------------------------
+# Local Testing
+# ------------------------------
+test-output/
+coverage/
+logs/
+
+# ------------------------------
+# Personal / Private Files
+# ------------------------------
+*.key
+*.pem
+*.crt
+
+# Local notes
+notes-private/
+personal/
