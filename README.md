@@ -429,6 +429,4 @@ You may modify this section according to your college's project and team require
 ---
 
 =======
-# RFID-Based-SmartParkingSystem
-RFID-Based Smart Parking System using ESP32, RC522, PHP, and MySQL to automate student vehicle entry and exit tracking, parking history, and fee management. The system provides admin and student dashboards for monitoring parking activity and managing registered vehicles.
->>>>>>> 33400aedf30853d167fa9be1ca30002349c5b08f
+
